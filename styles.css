@@ -1,0 +1,16 @@
+body {
+    background: radial-gradient(circle, #cd320b, #2d1a27); /* Adjust colors as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure the body takes the full viewport height */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.section-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px; /* Pushes the section to the bottom */
+    margin-bottom: auto; /* Adjust this value as needed */
+}

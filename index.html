@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marian Rodriguez</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Saira:wght@800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Prevent scrollbars from appearing */
+        }
+
+        h2 {
+            font-family: 'Saira', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: white;
+            text-shadow: 0 0 1px transparent, 0 1px 2px rgba(212, 121, 2, 0.5);
+            opacity: 0.7;
+            letter-spacing: 4px;
+        }
+
+        .background {
+            background-image: url('public/Marian rodriguez linktree perfil.jpeg');
+            background-size: contain; /* Make the background image contain within the div */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-position: center; /* Center the image */
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            z-index: -1; /* Ensure the image stays behind other elements */
+        }
+
+        section {
+            display: grid;
+            place-items: center;
+            position: relative; /* Allow positioning of content on top */
+            z-index: 1; /* Ensure content is above the background */
+        }
+
+        section div {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section > div {
+            padding: 100px 10px;
+        }
+
+        section div img {
+            width: 100px;
+            box-shadow: 0 0 8px 1px lightblue;
+        }
+
+        a {
+            font-size: 1.1em;
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+            /* border: 1.5px solid white; */
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            gap: 20px;
+            align-items: center;
+            border-radius: 4px;
+            transition-duration: 200ms;
+            letter-spacing: 3px;
+            
+        }
+
+        a:hover {
+            background: white;
+            color: #0f172a;
+        }
+
+        a i {
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background"></div>
+    <section class="section-links">
+        <div>
+            <!-- <img src="public/Marian rodriguez linktree perfil.jpeg" alt="dp" /> -->
+            <h2>MARIAN RODRIGUEZ</h2>
+            <div>
+                 <a href="https://marianstrong21.mitiendanube.com/">
+                    <i class="fa-solid fa-cart-shopping" style="color:rgb(19, 243, 127)"></i>
+                    <p>COMPRAR QUEMADOR</p>
+                </a>
+                <a href="https://search.app/QtoJppVFV87w9o7B6">
+                    <i class="fa-solid fa-heart" style="color: rgb(73, 133, 243);"></i>
+                    <p>EXCLUSIVE CONTENT</p>
+                </a>
+                <a href="https://fans.ly/Marianexotic">
+                    <i class="fa-solid fa-lock"></i>
+                    <p>CONTENIDO PROMO</p>
+                </a>
+                <a href="https://twitter.com/Marianexotic">
+                    <i class="fa-solid fa-x"></i>
+                    <p>TWITTER</p>
+                </a>
+                <a href="https://www.tiktok.com/@negrairreverente21?_t=8qSYRJg2KWh&_r=1">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <p>TIKTOK</p>
+                </a>
+                <a href="https://www.instagram.com/marianstrong21?igsh=MTJoaHVyYWVvNzZlMg==">
+                    <i class="fa-brands fa-instagram" style="color: rgb(245, 9, 131);"></i>
+                    <p>MARIAN STRONG COACH</p>
+                </a>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+
